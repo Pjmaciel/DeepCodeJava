@@ -1,6 +1,6 @@
 package poo.exercicios.interfaces.exer01;
 
-public class App {
+public class CalculateApp {
 
 	public static void main(String[] args) {
 		Circle circulo = new Circle(3);

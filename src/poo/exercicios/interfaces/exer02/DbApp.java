@@ -1,6 +1,6 @@
 package poo.exercicios.interfaces.exer02;
 
-public class App {
+public class DbApp {
 	public static void main(String[] args) {
 		Database dbMysqlconnection1 = new MySQLDatabase("Santos", "pinacoteca");
 		Database dbPostgreconnection1 = new PostgreSQLDatabase("linux", "Interfaces");

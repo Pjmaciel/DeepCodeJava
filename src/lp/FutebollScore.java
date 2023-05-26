@@ -31,7 +31,7 @@ public class FutebollScore {
 		}
 		
 		//Finishing
-		System.out.println("\n=========== End App ==========");
+		System.out.println("\n=========== End DbApp ==========");
 
 	}
 
