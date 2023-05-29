@@ -1,0 +1,33 @@
+     						CENÁRIO
+ Uma instituição de ensino contratou sua equipe para desenvolver uma aplicação 
+  para gerir o sistema de RH de seus professores . 
+ 
+ O PO (product owner) afirma que gostaria de uma aplicação WEB para gerenciar o 
+  cadastro de seus professores em departamentos e associa-los as suas respectivas 
+  disciplinas.
+ 
+ Tendo em visa o contexto da aplicação supracitada, o PO propões como MVP(Minimum Viable Product) com as seguintes funcionalidades:
+ 
+ 1. Realizar o cadastro(CRUD) dos departamentos pelo sistema administrativo(WEB)
+	1.1. Um departamento possui as seguintes informações:
+		1.1.1. Nome 
+		
+2. Realizar o cadastro do curso
+	2.1. Um curso possui as seguintes informações:
+		2.1.1. Nome
+		
+3. Realizar o cadastro do professor
+	3.1. Um professor possui as seguintes informações:
+		3.1.1. Nome
+		3.1.2. CPF
+		3.1.3. Departamento Associado
+		
+4. Realizar o cadastro da alocação do professor com um curso
+	4.1. Uma alocação possui as seguintes informações:
+		4.1.1. Professor
+		4.1.2. Curso
+		4.1.3  Dia da Semana
+		4.1.4. Horário
+
+
+		

@@ -46,6 +46,7 @@ public class Game {
 				tabuleiro.insertPeca(PlayerO, keyboard.nextInt());
 				tabuleiro.printBoard();
 			}
+			keyboard.close();
 			
 		}
 	}

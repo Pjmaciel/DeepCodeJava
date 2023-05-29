@@ -1,0 +1,18 @@
+1- Você está construindo um aplicativo de agenda de contatos. 
+    Crie uma classe chamada Contato com os atributos nome e telefone. 
+    Em seguida, crie uma lista de objetos do tipo Contato e preencha-a com alguns contatos. 
+    Utilize o for each para percorrer a lista e exibir o nome e o telefone de cada contato.
+  
+  
+2- Faça a criação de uma lista contendo 5 saldos de conta (apenas o saldo): 
+    Exiba o maior saldo, Exibe o menor saldo, Remova o menor saldo.
+  
+3- Suponha que você esteja desenvolvendo um sistema de gerenciamento de funcionários. 
+   Crie uma classe chamada Funcionario com os atributos nome e salario. 
+   Em seguida, crie uma lista de objetos do tipo Funcionario e preencha-a com alguns funcionários. 
+   Utilize o for each para percorrer a lista e aumentar o salário de cada funcionário em 10%.
+    
+4-  Você está desenvolvendo um sistema de cadastro de alunos em uma escola. 
+    Crie uma classe chamada Aluno com os atributos nome, idade e notas (uma lista de 3 notas (que são do tipo double)). 
+    Em seguida, crie uma lista de objetos do tipo Aluno e preencha-a com alguns alunos. Crie um método chamado calcularMedia na classe Aluno que calcula a média das notas do aluno. 
+    Utilize o for each para percorrer a lista de alunos e chamar o método calcularMedia para cada aluno, exibindo o nome do aluno e sua média.
