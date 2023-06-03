@@ -47,7 +47,7 @@ public class Professor {
 		return "Professor ↴" +
 			   "\n → Nome: " + getNome() + 
 			   "\n → Cpf: " + getCpf() + 
-			   getDepartamento();
+			   this.departamento;
 	}
 
 	public void setCounterId(int counterId) {
