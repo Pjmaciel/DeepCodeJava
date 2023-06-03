@@ -21,7 +21,7 @@ public class Departamento {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "\n → Departamento ↴ " + "\n    • Nome: " + getName();
+		return "\n→ Departamento ↴ " + "\n    • Nome: " + getName();
 	}
 
 }
