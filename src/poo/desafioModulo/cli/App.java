@@ -50,6 +50,8 @@ public class App {
 		System.out.println(prof);
 		System.out.println(linha);
 		
+		keyboard.close();
+		
 		
 	}
 

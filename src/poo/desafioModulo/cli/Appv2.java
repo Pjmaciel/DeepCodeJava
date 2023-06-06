@@ -102,7 +102,9 @@ public class Appv2 {
 			out.print("\nEnter the Departaments ID: ");
 			int id = input.nextInt();
 
-			Professor newProfessor = new Professor(name, cpf, listaDepartamentos.getDepartamentosByID(id));
+			Professor newProfessor = new Professor(name, 
+					                               cpf, 
+					                               listaDepartamentos.getDepartamentosByID(id));
 			listaProfessores.addProfessor(newProfessor);
 
 			System.out.println("Professor added Successfully");
@@ -135,8 +137,10 @@ public class Appv2 {
 			out.print("\n Enter the hours for alocation: ");
 			String hora = input.next();
 
-			Alocacao newAlocacao = new Alocacao(listaProfessores.getProfessorByID(idProfessor),// alocacao objeto criado
-					listaCursos.getDepartamentosByID(idCurso), diaDaSemana, hora); //
+			Alocacao newAlocacao = new Alocacao(listaProfessores.getProfessorByID(idProfessor),
+					                            listaCursos.getDepartamentosByID(idCurso),
+					                            diaDaSemana, 
+					                            hora);
 			listaAlocacoes.addAlocacao(newAlocacao);
 
 			System.out.println("Alocation added Successfully");
