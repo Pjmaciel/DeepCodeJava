@@ -25,7 +25,6 @@ public class Appv2 {
 			input.close();
 		}
 		
-		
 	}
 
 	public static void allocationApp() {//menu principal 
@@ -138,7 +137,7 @@ public class Appv2 {
 			String hora = input.next();
 
 			Alocacao newAlocacao = new Alocacao(listaProfessores.getProfessorByID(idProfessor),
-					                            listaCursos.getDepartamentosByID(idCurso),
+					                            listaCursos.getCursosByID(idCurso),
 					                            diaDaSemana, 
 					                            hora);
 			listaAlocacoes.addAlocacao(newAlocacao);

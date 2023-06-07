@@ -16,14 +16,14 @@ public class App {
 		String dpnome = keyboard.next();
 		Departamento dp = new Departamento(dpnome);
 		
-		System.out.print("Digite o nome do curso");
+		System.out.print("Digite o nome do curso: ");
 		String cursoNome = keyboard.next();
 		
 		Curso curso =  new Curso(cursoNome);
 		
 		System.out.print("Digite o nome do professor: ");
 		String profNome = keyboard.next();
-		System.out.print("Digite o nome do professor: ");
+		System.out.print("Digite o nome do cpf: ");
 		String profCpf = keyboard.next();
 	
 		
@@ -43,12 +43,12 @@ public class App {
 		
 		
 		
-		System.out.println(dp);
-		System.out.println(linha);
-		System.out.println(curso);
-		System.out.println(linha);
-		System.out.println(prof);
-		System.out.println(linha);
+//		System.out.println(dp);
+//		System.out.println(linha);
+//		System.out.println(curso);
+//		System.out.println(linha);
+//		System.out.println(prof);
+//		System.out.println(linha);
 		
 		keyboard.close();
 		

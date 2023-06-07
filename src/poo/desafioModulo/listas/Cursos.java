@@ -38,7 +38,7 @@ public class Cursos {
 		}
 	}
 	
-	public Curso getDepartamentosByID(int id) {
+	public Curso getCursosByID(int id) {
 		Curso choiceCurso = cursos.get(id);
 		return choiceCurso;
 	}
